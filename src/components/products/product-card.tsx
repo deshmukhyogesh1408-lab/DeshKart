@@ -91,13 +91,17 @@ export default function ProductCard({ product, className }: ProductCardProps) {
           >
             <Heart className={cn("w-4 h-4", isWishlisted && "fill-current")} />
           </button>
-          <Link
-            href={`/products/${product.id}`}
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              window.location.href = `/products/${product.id}`;
+            }}
             className="w-9 h-9 rounded-full bg-white text-foreground flex items-center justify-center hover:bg-primary hover:text-white transition-colors shadow-md"
             aria-label="Quick view"
           >
             <Eye className="w-4 h-4" />
-          </Link>
+          </button>
         </div>
 
         {/* Add to cart button */}
