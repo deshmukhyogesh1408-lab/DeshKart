@@ -3,7 +3,7 @@
 ## Tech Stack
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript 5
-- **Styling:** Tailwind CSS 4
+- **Styling:** Tailwind CSS 3
 - **State:** Zustand + TanStack Query
 - **Database:** Prisma ORM + PostgreSQL
 - **Animations:** Framer Motion
