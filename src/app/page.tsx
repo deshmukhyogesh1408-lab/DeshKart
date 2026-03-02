@@ -124,19 +124,6 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-
-              {/* Floating card */}
-              <div className="absolute -left-6 bottom-16 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3 animate-fade-in border border-border">
-                <div className="w-12 h-12 bg-success/10 rounded-full flex items-center justify-center">
-                  <Truck className="w-6 h-6 text-success" />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold">Free Delivery</p>
-                  <p className="text-xs text-muted-foreground">
-                    On orders over $100
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
