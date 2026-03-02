@@ -26,7 +26,7 @@ const demoUsers: (User & { password: string })[] = [
   {
     id: "admin-001",
     name: "Admin User",
-    email: "admin@shopnex.com",
+    email: "admin@deshkart.com",
     password: "admin123",
     role: "admin",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
@@ -78,7 +78,7 @@ export const useAuthStore = create<AuthStore>()(
       },
     }),
     {
-      name: "shopnex-auth",
+      name: "deshkart-auth",
     }
   )
 );

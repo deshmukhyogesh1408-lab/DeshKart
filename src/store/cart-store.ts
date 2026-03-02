@@ -93,7 +93,7 @@ export const useCartStore = create<CartStore>()(
       },
     }),
     {
-      name: "shopnex-cart",
+      name: "deshkart-cart",
     }
   )
 );

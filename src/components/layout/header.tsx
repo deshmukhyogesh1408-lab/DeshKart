@@ -65,7 +65,7 @@ export default function Header() {
               <Package className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-foreground">
-              Shop<span className="text-primary">Nex</span>
+              Desh<span className="text-primary">Kart</span>
             </span>
           </Link>
 

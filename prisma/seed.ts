@@ -167,7 +167,7 @@ async function main() {
       },
       {
         name: "Admin User",
-        email: "admin@shopnex.com",
+        email: "admin@deshkart.com",
         password: "$2a$10$placeholder_hash_for_admin123",
         role: "ADMIN",
       },

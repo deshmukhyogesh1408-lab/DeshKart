@@ -59,7 +59,7 @@ export default function RegisterPage() {
             Create your account
           </h1>
           <p className="text-muted-foreground mt-1">
-            Join ShopNex and start shopping
+            Join DeshKart and start shopping
           </p>
         </div>
 

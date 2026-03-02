@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ClientLayout from "@/components/layout/client-layout";
 
 export const metadata: Metadata = {
   title: "DeshKart — Unique Shopping by YDeshmuk",
@@ -33,6 +34,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// Client wrapper for interactive components
-import ClientLayout from "@/components/layout/client-layout";

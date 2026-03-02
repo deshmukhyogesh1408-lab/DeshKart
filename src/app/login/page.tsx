@@ -200,7 +200,7 @@ export default function LoginPage() {
               <code className="bg-muted px-1 rounded">password123</code>
             </p>
             <p>
-              Admin: <code className="bg-muted px-1 rounded">admin@shopnex.com</code> /{" "}
+              Admin: <code className="bg-muted px-1 rounded">admin@deshkart.com</code> /{" "}
               <code className="bg-muted px-1 rounded">admin123</code>
             </p>
           </div>
