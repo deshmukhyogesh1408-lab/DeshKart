@@ -1,7 +1,7 @@
 # DeshKart — Unique Shopping by ydeshmuk
 
 ## Tech Stack
-- **Framework:** Next.js 15 (App Router + Turbopack)
+- **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript 5
 - **Styling:** Tailwind CSS 4
 - **State:** Zustand + TanStack Query
